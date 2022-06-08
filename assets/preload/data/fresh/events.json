@@ -1,0 +1,230 @@
+{
+	"song": {
+		"speed": 1.8,
+		"stage": null,
+		"player1": "bf",
+		"player2": "dad",
+		"player3": null,
+		"events": [
+			[
+				8000,
+				[
+					[
+						"Set GF Speed",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				24000,
+				[
+					[
+						"Set GF Speed",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				25000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				27000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				29000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				31000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				33000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				35000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				37000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				39000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				40000,
+				[
+					[
+						"Set GF Speed",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				56000,
+				[
+					[
+						"Set GF Speed",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				57000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				59000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				61000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				63000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				65000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				67000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				69000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				71000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				80000,
+				[
+					[
+						"Set GF Speed",
+						"2",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 120,
+		"mania": 3,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Fresh"
+	}
+}
