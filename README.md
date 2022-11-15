@@ -1,4 +1,4 @@
-this is a folk from Tposejank / [FNF-PsychEngine-ExtraKeys](https://github.com/tposejank/FNF-PsychEngine-ExtraKeys)
+this is a fork from tposejank's [FNF-PsychEngine-ExtraKeys](https://github.com/tposejank/FNF-PsychEngine-ExtraKeys)
 
 # Friday Night Funkin' - BEAT! Engine
 
@@ -154,8 +154,8 @@ In case you don't want your mod to be able to run .lua scripts, delete the "LUA_
 ## BEAT! Engine
 
 - [AquaStrikr](https://twitter.com/aqua_strikr) - Art, Director
-- [Luisinhi010](https://www.youtube.com/c/Luisinho%E3%83%84/) - Coding, Animation, Charting
-- [Gui-iago](https://twitter.com/Fan_de_RPG) - Additional Coding, Charting
+- [Luisinhi010](https://twitter.com/Luis_ComS_01) - Coding, Animation, Charting
+- [BeastlyGhost](https://twitter.com/BeasltyGabi) - Additional Coding, Charting
 - [NooBZiiTo](https://twitter.com/NooBZiiTo1) - Animation
 - [Re.Xuadoz.2.5](https://www.reddit.com/user/JulioHaHaHa) - Ideas
 
