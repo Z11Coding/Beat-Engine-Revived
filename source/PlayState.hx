@@ -1359,7 +1359,7 @@ class PlayState extends MusicBeatState
 			case 1:
 				botplayTxt.text = "CHEATER!";
 			case 2:
-				botplayTxt.text = "SHE/THEM/HE'S FUNKIN CHEATING";
+				botplayTxt.text = "USER IS FUNKIN' CHEATING";
 			case 3:
 				botplayTxt.text = "I CAN SEE YOU CHEATING";
 			case 4:
@@ -2784,7 +2784,7 @@ class PlayState extends MusicBeatState
 				case 1:
 					botplayTxt.text = "CHEATER!";
 				case 2:
-					botplayTxt.text = "HE'S FUNKIN CHEATING";
+					botplayTxt.text = "USER IS FUNKIN' CHEATING";
 				case 3:
 					botplayTxt.text = "I CAN SEE YOU CHEATING";
 				case 4:
