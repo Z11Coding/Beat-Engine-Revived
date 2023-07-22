@@ -2330,6 +2330,79 @@ class PlayState extends MusicBeatState
 				{
 					gottaHitNote = !section.mustHitSection;
 				}
+				switch (chartModifier)
+				{
+					case "Random":
+						daNoteData = FlxG.random.int(0, mania);
+
+					case "Flip":
+						if (gottaHitNote)
+						{
+							daNoteData = mania - Std.int(songNotes[1] % Note.ammo[mania]);
+						}
+
+					case "4K Only":
+						daNoteData = daNoteData - Std.int(songNotes[1] % Note.ammo[mania]);
+
+					case "Stairs":
+						daNoteData = stair % Note.ammo[mania];
+						stair++;
+
+					case "Wave":
+						/*var stairway:String = 'left';
+
+						if (stairway == 'left')
+						{
+							trace('left');
+							daNoteData = stair;
+							stair++;
+							if (stair % Note.ammo[mania] == 0 && stairway == 'left')
+							{stairway = 'right';}
+						}
+						else if (stairway == 'right')
+						{
+							trace('right');
+							daNoteData = stair;
+							stair++;
+							if (stair % Note.ammo[mania] == 2 && stairway == 'right')
+							{stairway = 'left';}			
+						}*/
+
+						var ammoFromFortnite:Int = Note.ammo[mania];
+						var luigiSex:Int = (ammoFromFortnite * 2 - 2);
+						var marioSex:Int = stair++ % luigiSex;
+
+						if (marioSex < ammoFromFortnite) {
+							daNoteData = marioSex;
+						} else {
+							daNoteData = luigiSex - marioSex;
+						}
+
+					case "What":
+						switch (stair % (2 * Note.ammo[mania]))
+						{
+							case 0:
+								daNoteData = FlxG.random.int(0, mania);
+							case 1:
+								if (gottaHitNote)
+								{
+									daNoteData = mania - Std.int(songNotes[1] % Note.ammo[mania]);
+								}
+							case 2:
+								daNoteData = daNoteData - Std.int(songNotes[1] % Note.ammo[mania]);
+							case 3:
+								daNoteData = stair % Note.ammo[mania];
+								stair++;
+							case 4:
+								daNoteData = stair % Note.ammo[mania];
+
+
+							default:
+								daNoteData = Note.ammo[mania] - 1 - (stair % Note.ammo[mania]);
+
+						}
+						stair++;
+				}
 				var oldNote:Note;
 				if (unspawnNotes.length > 0)
 					oldNote = unspawnNotes[Std.int(unspawnNotes.length - 1)];
